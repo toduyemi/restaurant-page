@@ -3,6 +3,8 @@ import createTemplate from './restaurant-template.js';
 import createContactPage from './contact-page.js';
 import createMenuPage from './menu-page.js';
 
+import './style.css';
+
 
 (function () {
     const restaurantPage = {

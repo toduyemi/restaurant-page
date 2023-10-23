@@ -147,3 +147,7 @@ table {
 *::after {
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+}

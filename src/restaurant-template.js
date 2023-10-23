@@ -1,7 +1,7 @@
 function createTemplate() {
 
     const headerCtr = document.createElement('header');
-    const baseCtr = document.createElement('div');
+
     const navCtr = document.createElement('nav');
     const homeDiv = document.createElement('div');
     const menuDiv = document.createElement('div');
@@ -26,7 +26,6 @@ function createTemplate() {
     navCtr.appendChild(menuDiv);
     navCtr.appendChild(aboutDiv);
 
-    headerCtr.appendChild(baseCtr);
     headerCtr.appendChild(navCtr);
 
     document.body.prepend(headerCtr);
