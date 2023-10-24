@@ -6,6 +6,7 @@ function createMenuPage() {
 
     const menuHeader = document.createElement('h1');
     const menuItemsDiv = document.createElement('div');
+    menuItemsDiv.classList.add('menu-ctr')
 
     menuHeader.textContent = 'our coffee and recommendations'
 
@@ -115,6 +116,14 @@ function createMenuPage() {
 
     contentDiv.appendChild(menuHeader);
     contentDiv.appendChild(menuItemsDiv);
+
+    menuDiv1.classList.add('book-item');
+    menuDiv4.classList.add('book-item');
+    menuDiv5.classList.add('book-item');
+
+    menuDiv2.classList.add('drink-item');
+    menuDiv3.classList.add('drink-item');
+    menuDiv6.classList.add('drink-item');
 
 }
 
