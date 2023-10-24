@@ -1,3 +1,7 @@
+import jadeCity from './assets/jade_city.png';
+import bOC from './assets/beware_of_chicken.jpeg';
+import unSouled from './assets/unsouled.jpeg';
+
 function createMenuPage() {
 
     const contentDiv = document.querySelector('#content');
@@ -12,8 +16,8 @@ function createMenuPage() {
 
     const menuDiv1 = document.createElement('div');
     const header1 = document.createElement('h2');
-    const jCimg = document.createElement('img');
-    jCimg.setAttribute('src', './assets/jade_city.png');
+    const jCimg = new Image();
+    jCimg.src = jadeCity;
     header1.textContent = 'Jade City by Fonda Lee'
 
     menuDiv1.appendChild(jCimg);
@@ -67,8 +71,8 @@ function createMenuPage() {
 
     const menuDiv4 = document.createElement('div');
     const header4 = document.createElement('h2');
-    const boCimg = document.createElement('img');
-    boCimg.setAttribute('src', './assets/beware_of_chicken.jpeg');
+    const boCimg = new Image();
+    boCimg.src = bOC;
     header4.textContent = 'Beware of Chicken by CasualFarmer';
 
     menuDiv4.appendChild(boCimg);
@@ -77,8 +81,8 @@ function createMenuPage() {
 
     const menuDiv5 = document.createElement('div');
     const header5 = document.createElement('h2');
-    const unsouledImg = document.createElement('img');
-    unsouledImg.setAttribute('src', './assets/unsouled.jpeg');
+    const unsouledImg = new Image();
+    unsouledImg.src = unSouled;
     header5.textContent = 'Unsouled by Will Wight';
 
     menuDiv5.appendChild(unsouledImg);
